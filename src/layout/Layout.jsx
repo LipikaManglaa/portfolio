@@ -5,9 +5,9 @@ import Footer from './Footer'
 export default function Layout(props) {
   return (
     <>
-    {/* <Header/> */}
+    <Header/>
     <main>{props.children}</main>
-    {/* <Footer/> */}
+    <Footer/>
     </>
   )
 }

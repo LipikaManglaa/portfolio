@@ -2,7 +2,7 @@ import React from 'react'
 import './../styles/Footer.css'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 export default function Footer() {
   return (
     <>
@@ -28,31 +28,29 @@ export default function Footer() {
                     <h2>Contact Us</h2>
                     <div class="contact-icon">
                         <i class="fas fa-phone"></i>
-                        <span>+ 555 555 55 55</span>
+                        <span>0425652303</span>
                     </div>
                     <div class="contact-icon">
                         <i class="fas fa-envelope-open"></i>
-                        <span>demo@gmail.com</span>
+                        <span>lipika.mangle.web@gmail.com</span>
                     </div>
                     <div class="contact-icon">
                         <i class="fas fa-map-marker-alt"></i>
-                        <span>Spencer Street, 704-705 Plot No.86, Sector-17 Vashi, Melbourne, 3000.</span>
+                        <span> Melbourne,Vic 3000.</span>
                     </div>
                 </div>
                 <div class="social-link">
                     <h2>Social Media</h2>
                     <div class="social-link-icon">
                         <div class="social-link-items">
-                        <Link to={'https://www.linkedin.com/in/lipikawebdeveloper/'}>   <FontAwesomeIcon icon={faLinkedinIn} className='icon'/>
+                        <Link to={'https://www.linkedin.com/in/lipikawebdeveloper/'} target='_blank'> <FontAwesomeIcon icon={faLinkedinIn} className='icon'/>
                      </Link>
                         </div>
                         <div class="social-link-items">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                           <Link to={'https://github.com/LipikaManglaa'} target='_blank'
+                           ><FontAwesomeIcon icon={faGithub}/></Link>
                         </div>
-                        <div class="social-link-items">
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                        <div class="social-link-items"> <a href="#"><i class="fab fa-twitter"></i></a></div>
+                       
                     </div>
                 </div>
             </div>

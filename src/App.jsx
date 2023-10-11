@@ -7,8 +7,8 @@ import About from './pages/About'
 import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import Resume from './pages/Resume'
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 let route=createBrowserRouter([
@@ -16,18 +16,18 @@ let route=createBrowserRouter([
       path:'/',
       element:<About/>
     },
-    // {
-    //   path:'/portfolio',
-    //   element:<Portfolio/>
-    // },
-    // {
-    //   path:'/contact',
-    //   element:<Contact/>
-    // },
-    // {
-    //   path:'/resume',
-    //   element:<Resume/>
-    // }
+    {
+      path:'/portfolio',
+      element:<Portfolio/>
+    },
+    {
+      path:'/contact',
+      element:<Contact/>
+    },
+    {
+      path:'/resume',
+      element:<Resume/>
+    }
   
   ])
 function App() {
@@ -36,7 +36,7 @@ function App() {
   return (
     <>
      <RouterProvider router={route}/>
-     {/* <ToastContainer /> */}
+     <ToastContainer />
     </>
   )
 }
