@@ -79,7 +79,7 @@ export default function Contact() {
                             </div>
                             <div className="row">
                                 <div className="col-lg-4 col-12 p-3">
-                                    <div className="contact-info rounded d-flex justify-content-center align-items-center py-3">
+                                    <div className="contact-info rounded d-flex justify-content-center align-items-center py-3"  style={{background:'red'}}>
                                         <div className="social-icon  fs-22 text-white fs-30 d-flex justify-content-center align-items-center">
                                             <FontAwesomeIcon icon={faEnvelope} />
                                         </div>

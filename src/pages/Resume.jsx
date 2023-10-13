@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../layout/Layout'
 import { Link } from 'react-router-dom/dist'
 import './../styles/Resume.css'
+import resume from './../assets/resume.pdf'
 
 export default function Resume() {
   return (
@@ -14,7 +15,7 @@ export default function Resume() {
               
               <div className='col-lg-12 col-12 '>
               <div className="text-center ">
-                                <h2 className="fs-35 fw-600 hcolor pt-3">Resume</h2> <span className='resume-down'>Downoad My  <Link to={'https://drive.google.com/file/d/1zbl68zGRlIP-nEHtD9FYyTp48euItM3P/view?usp=sharing'}  target="_blank">RESUME</Link></span>
+                                <h2 className="fs-35 fw-600 hcolor pt-3">Resume</h2> <span className='resume-down'>Downoad My  <Link to={resume}  target="_blank">RESUME</Link></span>
                             </div>  
 
                

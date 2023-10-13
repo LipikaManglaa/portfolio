@@ -21,41 +21,44 @@
     line-height: 24px;
 }
 .contact-info{
-    background-color:#be8553!important;
+    background-color:#F3E3D9 !important;
 
 }
 .social-icon{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #d1a782;
+    background-color: #683D22;
+}
+.contact-info p{
+    color: #000 !important;
 }
 .social-icon h5{
     color:#062f43!important;
 }
 .contact-form{
-    border-left: 7px solid #be8553;
+    border-left: 7px solid #683D22;
 }
 .contact-form span{
     padding-top:60px;
     
-    color:#be8553!important;
+    color:#683D22!important;
 }
 .contact-form .spanborder{
     width: 81px;
-    border-top: 2px solid #be8553;
+    border-top: 2px solid #683D22;;
     position: absolute;
     left:115px;
     top: 25px;
 }
 .cform-btn{
-    background-color: #be8553 !important;
+    background-color: #683D22 !important;
     color:#fff !important;
 }
 .cform-btn:hover{
     background-color: #fff !important;
-    color:#be8553 !important;
-    border:2px solid #be8553 !important;
+    color:#683D22!important;
+    border:2px solid #683D22!important;
 }
 .table{
     border-color: #be8553;

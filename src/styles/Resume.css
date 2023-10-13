@@ -9,7 +9,7 @@
 }
 .resume-down a{
     text-decoration: none;
-    color: var(--primary-color);
+    color: #683D22;
     font-weight: 600;
 }
 .resumme-html h3{
@@ -21,7 +21,7 @@
    text-align: center;
    display: block;
    text-decoration: none;
-   color: var(--primary-color);
+   color: #683D22;
    font-weight: 500;
 }
 .resumme-html ul li{

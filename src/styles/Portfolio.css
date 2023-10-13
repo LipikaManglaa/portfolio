@@ -1,29 +1,34 @@
 .portfolio-head{
 
-    height: 300px;
-    width: 100%;
+      width: 100%;
     transition: .3s;
+    background-color: #F3E3D9;
+    padding: 20px 0px;
+   height: 240px;
     
 }
 .port-list{
     overflow: hidden;
-    margin-bottom: 30px;
+   
 }
-.portfolio-head:hover{
 
-    transform: scale(1.2,1.2);
-  
-}
 .portfolio-head h4{
     text-align: center;
-   padding-top: 100px;
+  
    
 }
 .portDtaa{
-    width: 800px !important;
-    margin: auto;
+     margin: auto;
+}
+.port-list{
+    width: 100%;
+    height: 400px;
 }
 
+.port-list img{
+    width: 100%;
+    height: 100%;
+}
 .social-link-items a{
     font-size: 28px;
     color: #000;
@@ -48,6 +53,11 @@
     margin: auto;
 }
 .port-list{
-    border:3px solid #df7f18c4;
+   
     background-color: #fff;
+}
+.borPort{
+    border: 2px solid #683D22;
+    padding: 0px !important;
+      
 }

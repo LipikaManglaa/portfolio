@@ -11,8 +11,7 @@ export default function Footer() {
                 <div class="footer-about">
                     <h2>About US</h2>
                     <div class="footer-about-content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic maiores sint mollitia doloremque
-                            nesciunt possimus a vel exercitationem! Sapiente voluptatum</p>
+                        <p>Hi, My name is Lipika I've done my masters in computer science back in India after that I moved to Australia for better life .Then i was bust for settling life .After that, I was busy in home management And  in May 23 I've started Mern tack from Monash University coding bootcamp</p>
                     </div>
                 </div>
                 <div class="footer-link">
