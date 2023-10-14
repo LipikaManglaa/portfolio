@@ -38,7 +38,7 @@ export default function Header() {
             <div class="about-inner">
 
                 <figure>
-                    <Link >  <img src={aboutImg} alt="About" title="About"  /></Link>
+           
                 </figure>
                 <div class="about-content pt-4">
                     <h2>Full Stack Web Developer</h2>
