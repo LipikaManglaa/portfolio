@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './../styles/Contact.css'
+import '../styles/Contact.css'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
