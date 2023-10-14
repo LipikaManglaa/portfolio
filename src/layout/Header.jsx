@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import './../styles/Header.css'
 import '../styles/About.css'
-import aboutImg from '../assets/profile.jpg'
+import aboutImg from './../assets/profile.jpg'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faBars, faPhone } from '@fortawesome/free-solid-svg-icons'
 
