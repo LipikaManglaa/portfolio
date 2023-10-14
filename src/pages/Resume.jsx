@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../layout/Layout'
 import { Link } from 'react-router-dom/dist'
-import './../styles/Resume.css'
+import '../styles/Resume.css'
 import resume from './../assets/resume.pdf'
 
 export default function Resume() {
