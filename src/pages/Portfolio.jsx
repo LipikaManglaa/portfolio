@@ -1,15 +1,15 @@
 import React from 'react'
 import Layout from '../layout/Layout'
-import postfolio2 from './../assets/portfolio-2.jpg'
+import postfolio2 from '../assets/portfolio-2.jpg'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import './../styles/Portfolio.css'
+import '../styles/Portfolio.css'
 import html from './../assets/html.jpg'
-import bootstrap from './../assets/bootstrap.jpg'
-import tailwind from './../assets/tailwind.jpg'
-import javascript from './../assets/javascript.jpg'
-import react from './../assets/react.jpg'
+import bootstrap from '../assets/bootstrap.jpg'
+import tailwind from '../assets/tailwind.jpg'
+import javascript from '../assets/javascript.jpg'
+import react from '../assets/react.jpg'
 
 
 export default function Portfolio() {
